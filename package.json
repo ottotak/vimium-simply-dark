@@ -11,7 +11,7 @@
     "stylelint-scss": "^3.14.2"
   },
   "scripts": {
-    "dev": "sass *.scss *.css --watch --no-source-map",
+    "dev": "sass *.scss *.css --watch --no-source-map --style=compressed",
     "build": "sass *.scss *.css --no-source-map --style=compressed"
   }
 }
